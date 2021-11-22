@@ -10,7 +10,6 @@ def help():
     Provide arguments to calc your average grade
         main.py [argument]
         list of arguments:
-            set number of weight to calculate
             number_of_weight [number]  - set number of weight to calculate
             get_settings - printing settings file
             predict [subject] - predict grades to get of your average to reach goal average
