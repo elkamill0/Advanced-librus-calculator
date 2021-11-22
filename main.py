@@ -42,14 +42,14 @@ if len(sys.argv) > 1:
         except ValueError:
             print(f"Value error of argument: {arg[2]}")
         except:
-            print("someting went wrong")
+            print("something went wrong")
     elif arg[1] == "get_settings":
         data = open_file('settings.json')
         print(data)
     elif arg[1] == "help":
         help()
     else:
-        print("Unknow command. Try again or help")
+        print("Unknown command. Try again or help")
 
 
 
