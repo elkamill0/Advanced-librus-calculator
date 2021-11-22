@@ -1,4 +1,4 @@
-# Advanced-lirbus-calculator
+# Advanced-librus-calculator
  
  Professional librus calculator with predict functions to calc your average grade
  
