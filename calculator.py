@@ -22,8 +22,9 @@ def calc_more(tab_with_grades, subject):
     goal = data[subject]
     for word in tab_with_grades:
         if isinstance(word[0], float) or isinstance(word[0], int):
-            t_grade = t_grade + word[0] * word[1]
-            t_weight = t_weight + word[1]
+            if isinstance(word[1], int):
+                t_grade = t_grade + word[0] * word[1]
+                t_weight = t_weight + word[1]
     print(f"actual average: {calc(tab_with_grades)}")
     print(f"average to reach: {goal}")
     print("-------------------------")
