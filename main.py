@@ -7,7 +7,7 @@ from setup import write
 import getpass
 from experimental import add_remove_grade
 def help():
-    a = """Provide arguments to calc your average grade
+    print("""Provide arguments to calc your average grade
         main.py [argument]
         list of arguments:
             add_grade [subject] [grade] [weight] - adding grade with weight to experimental.json file
@@ -20,9 +20,7 @@ def help():
             calc [subject] - calc your acutally average
             update - update your grades list from librus
             help - show help just like here     
-            list - show subjects list"""
-    #print(a)
-    return a
+            list - show subjects list""")
 arg = sys.argv
 if len(sys.argv) > 1:
     if arg[1] == "add_grade":
